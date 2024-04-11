@@ -31,7 +31,8 @@ jobs:
     steps:
       - name: Checkout
         uses: Bhacaz/checkout-files@v2
-        with: dcos/_build/html
+        with: 
+          files: dcos/_build/html
       - name: Deploy
         uses: JamesIves/github-pages-deploy-action@v4
         with:
