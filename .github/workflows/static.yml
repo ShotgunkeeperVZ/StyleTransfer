@@ -34,5 +34,5 @@ jobs:
       - name: Deploy
         uses: JamesIves/github-pages-deploy-action@v4
         with:
-          folder: dcos/_build/html
+          folder: ./dcos/_build/html
           branch: main
